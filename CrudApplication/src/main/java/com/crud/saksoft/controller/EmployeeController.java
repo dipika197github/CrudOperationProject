@@ -21,30 +21,35 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 
+	//// save the employee data
 	@PostMapping("/saveEmployee")
 	public Employee saveEmployee(@RequestBody Employee employee) {
 		return employeeService.saveEmployee(employee);
 
 	}
 
+	// update the employee data
 	@PutMapping("/updateEmployee")
 	public Employee updateEmployee(@RequestBody Employee employee) {
 		return employeeService.updateEmployee(employee);
 
 	}
 
+	// fetch all employee data
 	@GetMapping("/getAllEmployee")
 	public List<Employee> getAllEmployee() {
 		return employeeService.getAllEmployee();
 
 	}
 
+	// fetch employee data based on id
 	@GetMapping("/findByEmployeeId/{id}")
 	public Employee findByEmployeeId(@PathVariable("id") Integer id) {
 		return employeeService.findByEmployeeId(id);
 
 	}
 
+	// delete all employee data
 	@DeleteMapping("/deleteByEmployeeId/{id}")
 	public void deleteByEmployeeId(@PathVariable("id") Integer id) {
 		employeeService.deleteByEmployeeId(id);

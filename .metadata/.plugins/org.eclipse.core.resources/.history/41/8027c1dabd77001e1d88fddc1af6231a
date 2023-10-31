@@ -40,7 +40,7 @@ public class EmployeeService {
 
 	}
 
-	// delete by id employee data
+	// delete all employee data
 
 	public void deleteByEmployeeId(Integer id) {
 		employeeRepository.deleteById(id);

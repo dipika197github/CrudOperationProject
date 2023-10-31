@@ -49,7 +49,7 @@ public class EmployeeController {
 
 	}
 
-	// delete by id employee data
+	// delete all employee data
 	@DeleteMapping("/deleteByEmployeeId/{id}")
 	public void deleteByEmployeeId(@PathVariable("id") Integer id) {
 		employeeService.deleteByEmployeeId(id);

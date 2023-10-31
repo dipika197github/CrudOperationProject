@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.crud.saksoft.service.impl&apos; to &apos;com.crud.saksoft.service&apos;&#x0D;&#x0A;- Original project: &apos;CrudApplication&apos;&#x0D;&#x0A;- Original element: &apos;CrudApplication/src/main/java/com.crud.saksoft.service.impl&apos;&#x0D;&#x0A;- Renamed element: &apos;CrudApplication/src/main/java/com.crud.saksoft.service&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.crud.saksoft.service.impl&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.crud.saksoft.service.impl" name="com.crud.saksoft.service" qualified="false" references="true" stamp="1698733570583" textual="false" version="1.0"/>
+</session>
